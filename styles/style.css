@@ -120,8 +120,8 @@ ol {
 }
 
 .search-form__textfield:focus {
-  outline: 1px solid #FFF;
-  outline-offset: 2px;
+  outline: none;
+  border: none;
 }
 
 .search-form__textfield:focus-visible {
@@ -142,8 +142,8 @@ ol {
 }
 
 .search-form__label:has(.search-form__checkbox:focus) {
-  outline: 1px solid #FFF;
-  outline-offset: 1px;
+  outline: none;
+  border: none;
 }
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
@@ -202,8 +202,8 @@ ol {
 }
 
 .button:focus {
-  outline: 1px solid #FFF;
-  outline-offset: 2px;
+  outline: none;
+  border: none;
 }
 
 .button:focus-visible {
@@ -256,7 +256,7 @@ ol {
 }
 
 .content__list-item {
-  padding: 2px;
+  margin: 2px;
 }
 
 .content__list-item:hover {
@@ -268,13 +268,12 @@ ol {
 }
 
 .content__list-item:focus {
-  border: 1px solid #FFF;
   outline: none;
+  border: none;
 }
 
 .content__list-item:focus-visible {
-  border: 1px solid #FFF;
-  outline: none;
+  outline: 1px solid #FFF;
 }
 
 .content__card-link {
