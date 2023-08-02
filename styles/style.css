@@ -248,6 +248,7 @@ ol {
   align-items: flex-start;
   gap: 30px;
   overflow-x: auto;
+  position: relative;
 }
 
 .content__list::-webkit-scrollbar {
