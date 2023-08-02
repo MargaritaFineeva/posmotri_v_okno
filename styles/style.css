@@ -101,6 +101,7 @@ ol {
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   border-right: none;
+  border-left: none;
   border-radius: 0;
   padding-top: 5px;
   padding-left: 0;
@@ -249,10 +250,12 @@ ol {
   gap: 30px;
   overflow-x: auto;
   position: relative;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .content__list::-webkit-scrollbar {
-  inline-size: 0;
+  display: none;
 }
 
 .content__card-link {
